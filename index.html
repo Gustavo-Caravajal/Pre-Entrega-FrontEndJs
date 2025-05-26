@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>TecniLibros</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="boton"><a href="#inicio">Inicio</a></li>
+                <li class="boton"><a href="#productos">Productos</a></li>
+                <li class="boton"><a href="#reseñas">Reseñas</a></li>
+                <li class="boton"><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a class="carrito" href="index.html">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bibliografía esencial para tu formación científica </h1>
+            <p>Accedé a libros clave en cálculo, álgebra, estructuras de datos, física y otras materias fundamentales.
+                <br> Ideal para acompañar tu carrera técnica con recursos confiables y actualizados.
+            </p>
+            <img class="hero" src="./Images/ciencia.jpg" alt="Ciencia">
+        </section>
+        <section id="productos">
+            <h2>Nuestros productos</h2>
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <h3>Cálculo De Una Variable</h3>
+                        <img src="./Images/calculo-1.jpg" alt="Libro de Cálculo">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h3>Álgebra lineal</h3>
+                        <img src="./Images/algebra-lineal.jpg" alt="Libro de álgebra lineal">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h3>Física 1</h3>
+                        <img src="./Images/fisica-1.jpg" alt="Libro de física">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h3>Cálculo de varias variables</h3>
+                        <img src="./Images/calculo-2.jpg" alt="Libro de Cálculo">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h3>Física 2</h3>
+                        <img src="./Images/fisica-2.jpg" alt="Libro de física">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h3>Algoritmos en C</h3>
+                        <img src="./Images/algoritmos-1.jpg" alt="Libro de algoritmos">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h3>Análisis de circuitos</h3>
+                        <img src="./Images/analisis-de-circuitos.jpg" alt="Libro de análisis de circuitos">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h3>Paradigmas de programación</h3>
+                        <img src="./Images/Paradigmas-de-programacion.jpg" alt="paradigmas de programación">
+                        <p>$9.99</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reseñas">
+            <h2>Reseñas de nuestros clientes</h2>
+            <div class="container-reseñas">
+                <div class="reseña">
+                    <p>
+                        ⭐⭐⭐⭐⭐<br>
+                        "Algoritmos 1 fue mucho más claro con este libro."<br>
+                        — Nicolás G., estudiante de Ingeniería en Sistemas
+                    </p>
+                </div>
+                <div class="reseña">
+                    <p>
+                        ⭐⭐⭐⭐⭐<br>
+                        "Análisis de Circuitos explicado paso a paso, sin vueltas."<br>
+                        — Sofía T., estudiante de Ingeniería Eléctrica
+                    </p>
+                </div>
+                <div class="reseña">
+                    <p>
+                        ⭐⭐⭐⭐⭐<br>
+                        "Con Álgebra Lineal entendí vectores y matrices de verdad."<br>
+                        — Laura M., estudiante de Ciencias de la Computación
+                    </p>
+                </div>
+                <div class="reseña">
+                    <p>
+                        ⭐⭐⭐⭐⭐<br>
+                        "Física 2 por fin tuvo sentido gracias a este libro."<br>
+                        — Martín R., estudiante de Ingeniería Electrónica
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <div class="contacto">
+                <form class="formulario" action="https://formspree.io/f/manogvqd" method="post">
+                    <label class="boton" for="nombre">Nombre: </label>
+                    <input class="entrada" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"
+                        required>
+                    <label class="boton" for="apellido">Apellido: </label>
+                    <input class="entrada" type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido"
+                        required>
+                    <label class="boton" for="mail">E-mail: </label>
+                    <input class="entrada" type="email" id="mail" name="mail" placeholder="Escribe tu E-mail" required>
+                    <label class="boton" for="mensaje">Mensaje: </label>
+                    <textarea class="entrada" name="mensaje" id="mensaje" placeholder="Dejanos un mensaje"
+                        required></textarea>
+                    <input class="enviar" type="submit" name="enviar" id="enviar">
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <p class="derechos-reservados">Derechos reservados &copy; 2025</p>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </footer>
+</body>
+
+</html>
