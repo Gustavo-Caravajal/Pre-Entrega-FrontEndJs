@@ -135,8 +135,8 @@ div.contacto {
 
 
 #contacto {
-    height: 520px;
-    width: 400px;
+    height: 550px;
+    width: 350px;
     background: linear-gradient(to right, rgb(109, 102, 102) 0%, rgb(255, 238, 1) 125%);
 
     padding-top: 5px;
@@ -148,30 +148,30 @@ label.boton {
     border: 2px solid rgb(104, 104, 104);
     border-radius: 25px;
     padding: 3px;
-    margin: 15px;
+    margin: 20px 20px 20px 25px;
     padding: 5px;
 }
 
 form.formulario input.entrada {
     display: block;
     box-sizing: border-box;
-    width: 90%;
+    width: 85%;
     height: 40px;
-    margin: 15px;
+    margin: 20px 20px 20px 25px;
     border-radius: 15px;
     justify-content: center;
     border-color: white;
 }
 
 form.formulario textarea {
-    width: 330px;
+    width: 265px;
     height: 90px;
     padding: 15px;
     border-radius: 15px;
     justify-content: center;
     border-color: white;
-    margin-left: 15px;
-    margin-top: 15px;
+    margin-left: 25px;
+    margin-top: 20px;
     margin-bottom: 5px;
 }
 
