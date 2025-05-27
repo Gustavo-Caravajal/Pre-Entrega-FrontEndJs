@@ -174,33 +174,34 @@ form.formulario input.enviar {
     margin: 15px 15px 15px 35%;
 }
 
-@media (max-width: 600px) {
+
+@media screen and (max-width: 480px) {
     #contacto {
-        position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        width: 90%; 
-        margin: 5% auto 0 auto; 
+        margin-left: 0;
+        margin-right: 0;
+        position: absolute;
     }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     #contacto {
-        position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        width: 400px; 
-        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+        position: absolute;
     }
 }
 
-@media (min-width: 1025px) {
+@media screen and (min-width: 769px) {
     #contacto {
-        position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        width: 500px; 
-        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+        position: absolute;
     }
 }
 
