@@ -182,7 +182,7 @@ form.formulario input.enviar {
     border: 2px solid rgb(88, 88, 88);
     padding: 5px;
     border-radius: 15px;
-    margin: 15px;
+    margin: 15px 15px 15px 35%;
 }
 
 
