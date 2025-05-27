@@ -175,12 +175,16 @@ form.formulario input.enviar {
     margin: 15px 15px 15px 35%;
 }
 
+
+
 @media screen and (max-width: 768px) {
     #contacto {
         left: 40%;
         transform: translateX(-50%);
-        margin-left: 0;
-        margin-right: 0;
+        margin-right: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 350px;
         position: absolute;
     }
 }
